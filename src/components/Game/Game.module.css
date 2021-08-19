@@ -1,0 +1,74 @@
+.gameContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.icon1 {
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    height: 18rem;
+    cursor: pointer;
+}
+
+.icon1 img {
+    background-color: rgb(255, 255, 255);
+    padding: 1.5rem;
+    border-radius: 50%;
+    border: 15px solid hsl(349, 70%, 56%);
+    box-shadow: 2px 2px 10px rgb(22, 21, 21);
+    object-fit: cover;
+    transition: all ease .3s;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 12rem;
+}
+
+.icon2 {
+    cursor: pointer;
+    margin-right: 8rem;
+}
+
+.icon2 img {
+    background-color: rgb(255, 255, 255);
+    padding: 1.5rem;
+    border-radius: 50%;
+    border: 15px solid hsl(40, 84%, 53%);
+    box-shadow: 2px 2px 10px rgb(22, 21, 21);
+    object-fit: cover;
+    transition: all ease .3s;
+}
+
+.icon3 {
+    cursor: pointer;
+}
+
+.icon3 img {
+    background-color: rgb(255, 255, 255);
+    padding: 1.5rem;
+    border-radius: 50%;
+    border: 15px solid hsl(230, 89%, 65%);
+    box-shadow: 2px 2px 10px rgb(22, 21, 21);
+    object-fit: cover;
+    transition: all ease .3s;
+}
+
+.icon1 img:hover,
+.icon2 img:hover,
+.icon3 img:hover {
+    background-color: rgb(187, 180, 180);
+}
+
+@media screen and (max-width:450px){
+    .icon1 img,
+    .icon2 img,
+    .icon3 img {
+        width: 90px;
+        padding: 1rem;
+    }
+}
